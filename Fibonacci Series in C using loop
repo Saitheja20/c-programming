@@ -1,0 +1,25 @@
+//C Program to print Fibonacci series in a given range
+#include<stdio.h>
+ int fibonacci(int a);
+int main(){
+    int i,result;
+    printf("enter number\n");
+    scanf("%d",&i);
+    result=fibonacci(i);
+    printf("result:%d \n",result);
+    return 0;
+}
+ int fibonacci(int a){
+     int i,result,fw=0,sw=1,n;
+     for(i=0;i<a;i++){
+if(i<1){
+    n=i;
+}
+else{
+    n=fw+sw;
+    fw=sw;
+    sw=n;
+}
+printf("%d  ",n);
+     }
+ }
