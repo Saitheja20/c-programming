@@ -19,7 +19,7 @@ int main(){
         //sum=sum*reverse
         //for reverse an input number
         //sum=sum+reverse
-        sum=sum*reverse;
+        sum=sum+reverse;
         sai=sai/10;
     }
     return sum;
