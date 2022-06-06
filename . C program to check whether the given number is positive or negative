@@ -1,0 +1,13 @@
+//. C program to check whether the given number is positive or negative
+#include<stdio.h>
+int main(){
+    int i;
+    printf("enter a number");
+    scanf("%d",&i);
+    if(0<=i){
+    printf("given number is positive");
+    }
+    else if(i<=-0){
+    printf("given number is negetive");
+}
+}
